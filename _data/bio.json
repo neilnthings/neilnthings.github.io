@@ -34,19 +34,17 @@
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "web development",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "database management",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "database structure",
       "keywords": [
       ]
     }
@@ -60,6 +58,8 @@
         "C++",
         "Java",
         "Javascript",
+        "HTML",
+        "CSS"
       ]
     },
     {
@@ -69,6 +69,7 @@
         "Windows",
         "Ubuntu",
         "Git/GitHub",
+        "gcc",
         "g++"
       ]
     }
