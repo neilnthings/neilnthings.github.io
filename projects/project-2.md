@@ -14,7 +14,7 @@ summary: A choose-your-own-adventure style web comic.
 
 <img class="ui large image" src="../images/comic3.png">
 
-My team created this choose-your-own-adventure style web comic in ICS 111.  Users can experience different stories by what speech bubble they choose in each page of the application.
+A choose-your-own-adventure style web comic.  Users can experience different stories by what speech bubble they choose in each page of the application.  Each web page comic contains visuals, text messages for the story, and multiple speech bubbles containing more story text.
 
 <div class="ui medium images">
   <img class="ui image" src="../images/comic2.png">
