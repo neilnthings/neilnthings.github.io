@@ -14,7 +14,7 @@ summary: A turn-based videogame with zombies.
 ---
 
 <div class="ui small rounded images">
-  <img class="ui medium image" src="../images/zuzzle1.png">
+  <img class="ui large image" src="../images/zuzzle1.png">
   <img class="ui medium image" src="../images/zuzzle2.png">
   <img class="ui medium image" src="../images/zuzzle3.png">
 </div>
