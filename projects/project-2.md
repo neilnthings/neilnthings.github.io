@@ -2,23 +2,22 @@
 layout: project
 type: project
 image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+title: ComicAdventure
+permalink: projects/ComicAdventure
 date: 2015
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Comic
+  - Choose Your Own Adventure
+  - Java
+summary: A choose-your-own-adventure style web comic.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/comic1.png">
+  <img class="ui image" src="../images/comic2.png">
+  <img class="ui image" src="../images/comic3.png">
+</div>
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+My team created this choose-your-own-adventure style web comic in ICS 111.  Users can experience different stories by what speech bubble they choose in each page of the application.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+My main responsibility during this project had been implementing the overall code.  I had to write the code to parse text from the script and have it load into their designated comic pages.  I had to ensure that the speech bubble links sent users to the correct comic page when clicked.  I had to create the GUI for the program.  All images were borrowed from [Marvel](http://marvel.com) comics.
