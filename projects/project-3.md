@@ -1,60 +1,20 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
-permalink: projects/cotton
+image: images/tinyMoments.png
+title: Tiny Moments
+permalink: projects/tiny moments
 date: 2014
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - English
+  - Literature
+  - Poems
+  - Essay
+summary: A collection of literature.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img class="ui large left floated image" src="tinyMoments.png">
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+I had two intentions for creating my work.  First I wanted to write about my daughter and certain things in her life.  I chose to write aspects in her life that seemed trivial, none of the more memorable moments like birthdays or first words.  I wanted these smaller moments because I wanted emphasize the importance of them.  I find them to be more important because they happen much more often than a first day at school or first bike ride.  These little things, to me, are the foundations to my happy family.  My second intention is to write about the imagination.  Most of my work was about my daughter’s imagination but for my long essay I wrote down about my own imagination.
 
-To give you a flavor of the game, here is an excerpt from one run:
-
-<hr>
-
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
-
+The way I tried to show how these little moments are important in my work was by using the imagination.  I tried to write about an event that happened frequently, for example, going to the pool and my daughter cautiously investigating the water before she jumps in, and then creating an awesome out of this world scene out of it through the use of the imagination.  Through this method I tried to make something small into something big.
