@@ -19,4 +19,4 @@ I had two intentions for creating my work.  First I wanted to write about my dau
 
 The way I tried to show how these little moments are important in my work was by using the imagination.  I tried to write about an event that happened frequently, for example, going to the pool and my daughter cautiously investigating the water before she jumps in, and then creating an awesome out of this world scene out of it through the use of the imagination.  Through this method I tried to make something small into something big.
 
-Images/Media used for my collection provided by Jonas Maon.
+Portfolio can be found on my [Coroflot](http://www.coroflot.com/neilnthings/Tiny-Moments) website.  Images/Media used for my collection provided by Jonas Maon.
