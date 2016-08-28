@@ -12,11 +12,9 @@ labels:
 summary: A choose-your-own-adventure style web comic.
 ---
 
-<div class="ui large left floated rounded images">
-  <img class="ui image" src="../images/comic1.png">
-  <img class="ui image" src="../images/comic2.png">
-  <img class="ui image" src="../images/comic3.png">
-</div>
+<img class="ui image" src="../images/comic1.png">
+<img class="ui image" src="../images/comic2.png">
+<img class="ui image" src="../images/comic3.png">
 
 My team created this choose-your-own-adventure style web comic in ICS 111.  Users can experience different stories by what speech bubble they choose in each page of the application.
 
