@@ -12,7 +12,7 @@ labels:
 summary: A choose-your-own-adventure style web comic.
 ---
 
-<div class="ui small rounded images">
+<div class="ui large rounded images">
   <img class="ui image" src="../images/comic1.png">
   <img class="ui image" src="../images/comic2.png">
   <img class="ui image" src="../images/comic3.png">
