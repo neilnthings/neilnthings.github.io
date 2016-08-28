@@ -4,7 +4,7 @@ type: project
 image: images/tinyMoments.png
 title: Tiny Moments
 permalink: projects/tiny moments
-date: 2014
+date: 2016
 labels:
   - English
   - Literature
