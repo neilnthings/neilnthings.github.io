@@ -13,7 +13,7 @@ labels:
 summary: A collection of literature.
 ---
 
-<img class="ui large left floated image" src="../images/tinyMoments.png">
+<img class="ui medium left floated image" src="../images/tinyMoments.png">
 
 I had two intentions for creating my work.  First I wanted to write about my daughter and certain things in her life.  I chose to write aspects in her life that seemed trivial, none of the more memorable moments like birthdays or first words.  I wanted these smaller moments because I wanted emphasize the importance of them.  I find them to be more important because they happen much more often than a first day at school or first bike ride.  These little things, to me, are the foundations to my happy family.  My second intention is to write about the imagination.  Most of my work was about my daughter’s imagination but for my long essay I wrote down about my own imagination.
 
