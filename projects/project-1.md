@@ -21,7 +21,6 @@ Zuzzle is a turn-based videogame where you have four main characters and are sup
 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/zuzzle2.png">
-  <img class="ui image" src="../images/zuzzle3.png">
 </div>
 
 The project was the final project for my ICS 111 class.  I was responsible for integrating the visuals with the code.  I had to make sure that the characters and zombies spawned in their designated areas, with their designated images.  Also, I had to make sure when the characters, or zombies, moved that their image/sprites moved with them.
