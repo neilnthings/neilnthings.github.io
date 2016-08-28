@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/comicTitle.png
 title: ComicAdventure
 permalink: projects/ComicAdventure
 date: 2015
@@ -12,7 +12,7 @@ labels:
 summary: A choose-your-own-adventure style web comic.
 ---
 
-<img class="ui extra large image" src="../images/comic3.png">
+<img class="ui large image" src="../images/comic3.png">
 
 My team created this choose-your-own-adventure style web comic in ICS 111.  Users can experience different stories by what speech bubble they choose in each page of the application.
 
