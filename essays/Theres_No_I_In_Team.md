@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: There's No I in Team
-date: 2016-09-13
+date: 2016-09-15
 labels:
   - Software Engineering
   - Learning
