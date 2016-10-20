@@ -2,23 +2,12 @@
 layout: essay
 type: essay
 title: Spaces or Tabs
-<<<<<<< HEAD
 date: 2016-09-21
 labels:
   - Software Engineering
   - Learning
   - Coding Standards
   - ESLint
----
-
-<h4>Is Coding Standards Helpful?</h4>
-=======
-date: 2016-09-22
-labels:
-  - Software Engineering
-  - Learning
-  - ESLint
-  - Coding Standards
 ---
 
 <h4>It All Started With Spaces</h4>
@@ -32,4 +21,3 @@ Then one day I started messing around with different programming environments an
 Even though I am not behind coding standards I do believe that there are also benefits.  One benefit I can imagine with a big tech company implementing a strict coding standard for programmers is the ease of understandability.  What I mean is, if a big company, like google or amazon, has many coders coming in and out of employment newly hired coders can quickly understand the code they are working with if their own coding standard is applied strictly.
 
 I'm still not sold on coding standards but my experience in the business is sparse.  I may change my views later when I am working on bigger and bigger projects.
->>>>>>> origin/master
