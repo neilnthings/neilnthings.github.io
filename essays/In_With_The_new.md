@@ -10,7 +10,7 @@ labels:
   - Client-Server
 ---
 
-<img src="https://d14xs1qewsqjcd.cloudfront.net/assets/logo.svg">
+<img src="https://d14xs1qewsqjcd.cloudfront.net/assets/logo.svg" align="middle">
 
 Over the past two weeks I've been forced to work with [Meteor](https://www.meteor.com/), an open source platform to develop web, mobile, or desktop applications.  It's a different take on the client-server schema I'm used to with SQL/MySQL.
 
