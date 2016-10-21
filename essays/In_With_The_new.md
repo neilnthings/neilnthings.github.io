@@ -10,8 +10,12 @@ labels:
   - Client-Server
 ---
 
+<<<<<<< HEAD
 <img src="https://d14xs1qewsqjcd.cloudfront.net/assets/logo.svg" align="middle">
 <br>
+=======
+<img src="https://d14xs1qewsqjcd.cloudfront.net/assets/logo.svg">
+>>>>>>> origin/master
 
 Over the past two weeks I've been forced to work with [Meteor](https://www.meteor.com/), an open source platform to develop web, mobile, or desktop applications, that utilizes MongoDB.  It's a different take on the client-server schema I'm used to with SQL/MySQL.  Playing around with the Meteor platform I was able to create a very intelligent database backed application in a short amount of time.  It was ridiculously easy, well, mostly due to all the tutorial videos that held my hand as I went step-by-step creating the application.
 
