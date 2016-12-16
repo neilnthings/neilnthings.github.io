@@ -25,4 +25,5 @@ My responsibilities during the creation of Alloy mainly consisted of coding the 
 
 
 <img class="ui large centered image" src="../images/logged-out-home.png">
-<img class="ui large centered image" src="../project-search-final.png">
+<br>
+<img class="ui large centered image" src="../images/project-search-final.png">
