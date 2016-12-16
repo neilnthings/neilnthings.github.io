@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/tinyMoments.png
+image: images/alloy-icon.png
 title: Alloy
 permalink: projects/alloy
 date: 2016
