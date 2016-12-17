@@ -23,6 +23,8 @@ Alloy is a web application built for the University of Hawaii: Manoa students.  
 
 My responsibilities during the creation of Alloy mainly consisted of coding the search function.  It was a bit difficult at first because my understanding of Meteor and MongoDB were very limited.  It took me sometime to get a grip of the new language, although that grip was still very minimal.  The search function is created reactively, meaning that the website does not have to change webpages when a search query is entered.  All actions happen within the same webpage.  It's a nice feature to keep the code clean, less pages means less code to keep track of in the program.  The search function is also equipped with an autofill capability that pulls from a collection of entered projects skills, associated attributes that are related to a project.
 
+Click to find more information about [Alloy](https://alloyteams.github.io/)!
+
 
 <img class="ui huge centered image" src="../images/logged-out-home.png">
 <br>
