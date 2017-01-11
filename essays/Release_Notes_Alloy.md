@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: Release Notes (Alloy)
-date: 2016-10-06
+date: 2017-01-11
 labels:
   - Software Engineering
   - Learning
