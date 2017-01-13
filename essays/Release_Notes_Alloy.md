@@ -16,7 +16,8 @@ labels:
 
 A continuation of my group project Alloy from ICS 314.  My group and I created Alloy during the Fall semester of 2016 with the hopes of making a website that can initiate and strengthen collaboration for projects that needed team members, a way to get a person's project exposure.  At the moment Alloy is bound to the University of Hawaii: Manoa student/faculty bodies.
 
-<ul><b>Current features of Alloy are the following:</b>
+<h3>Current features of Alloy are the following:</h3>
+<ul>
 	<li>Login information is the username and password associated with a persons UH Manoa login</li>
 	<li>Users are able to create projects, which are public to other users to view</li>
 	<li>A search function is available for projects and users, which searches based on skills wanted for projects or skills users currently entered into their personal user information</li>
