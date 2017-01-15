@@ -32,6 +32,6 @@ A continuation of my group project Alloy from ICS 314.  My group and I created A
 <h3>January 15: Features/Enhancements</h3>
 Last semester many of the user feedback were in regards to the Search function/capabilities of Alloy.  A few of the search function remarks I hope to correct in this initial milestone are the following:  users shouldn't have to press "clear" to see new search results with a new query; and having the Search pages only available to users who are logged in.
 <ul>
-	<li>Reactivity</li>
-	<li>Privacy</li>
+	<li>Reactivity:  The clear button on both the user search and project search pages have been removed.  With the addition of the dep(dependancy) variable in the js files for both searches all search results are now cleared whenever new search tags are queried.  The dep variable is given a value when a query is made and if that dep variable is changed in any way all search results are cleared and a whatever changes that are made to the dep variable are displayed.</li>
+	<li>Privacy:  The solution to this issue was easily solved.  I knew that the other pages on Alloy already worked where a user had to be logged in to see any of the web page so I merely read through their code and took what I needed.  The solution had been to wrap all the code within the template tag with a "spacebars" if currentUser statement.  Now anyone who wants to see and use the search functions of Alloy must have a login and be logged in to view or use the search capability.</li>
 </ul>
