@@ -36,3 +36,8 @@ Last semester many of the user feedback were in regards to the Search function/c
 	<li>Clean-up:  I went through all the .html and .js files regarding the search function and search results pages to clean up unnecessary lines of code.  I removed many lines of commented out code that printed to the console for testing purposes while I was first creating the search tool.</li>
 	<li>Privacy:  The solution to this issue was easily solved.  I knew that the other pages on Alloy already worked where a user had to be logged in to see any of the web page so I merely read through their code and took what I needed.  The solution had been to wrap all the code within the template tag with a "spacebars" if currentUser statement.  Now anyone who wants to see and use the search functions of Alloy must have a login and be logged in to view or use the search capability.</li>
 </ul>
+
+<ul>
+	<b>February 1 (Planned): Features/Enhancements</b>
+	<li>One issue from the user feedback last semester regarding the Search function had been to have the search users and projects on one page instead of buttons that changed the page regarding which query you are searching.  I plan to consolidate all Search related files into a single .html and .js file.  At the moment there are multiple .html and .js files that make up the Search function.  I would like to cut that down a lot and clean up the overall organization of this capability.  I still plan to keep all the reactivity that the search users or projects currently have.  I can see multiple issues popping up when I start working on the consolidation.  For example, I will need to create a new UI for the single page search feature.</li>
+</ul>
