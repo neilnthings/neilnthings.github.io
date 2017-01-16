@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: Release Notes (Alloy)
-date: 2017-01-11
+date: 2017-01-15
 labels:
   - Software Engineering
   - Learning
@@ -38,6 +38,6 @@ Last semester many of the user feedback were in regards to the Search function/c
 </ul>
 
 <ul>
-	<b>February 1 (Planned): Features/Enhancements</b>
+	<b>(PLANNED) February 1: Features/Enhancements</b>
 	<li>One issue from the user feedback last semester regarding the Search function had been to have the search users and projects on one page instead of buttons that changed the page regarding which query you are searching.  I plan to consolidate all Search related files into a single .html and .js file.  At the moment there are multiple .html and .js files that make up the Search function.  I would like to cut that down a lot and clean up the overall organization of this capability.  I still plan to keep all the reactivity that the search users or projects currently have.  I can see multiple issues popping up when I start working on the consolidation.  For example, I will need to create a new UI for the single page search feature.</li>
 </ul>
