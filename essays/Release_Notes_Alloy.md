@@ -41,3 +41,12 @@ Last semester many of the user feedback were in regards to the Search function/c
 	<b>(PLANNED) February 1: Features/Enhancements</b>
 	<li>One issue from the user feedback last semester regarding the Search function had been to have the search users and projects on one page instead of buttons that changed the page regarding which query you are searching.  I plan to consolidate all Search related files into a single .html and .js file.  At the moment there are multiple .html and .js files that make up the Search function.  I would like to cut that down a lot and clean up the overall organization of this capability.  I still plan to keep all the reactivity that the search users or projects currently have.  I can see multiple issues popping up when I start working on the consolidation.  For example, I will need to create a new UI for the single page search feature.</li>
 </ul>
+
+<h3>February 1: Features/Enhancements</h3>
+The major goal I had planned for this enhancement was in regards to fixing/updating the search page.  Prior to this milestone the Alloy search page was comprised of three seperate pages.  Originally the main Search page's UI consisted of two buttons, one button for project searches and another for user searches.  Alloy users would click either button and then they would be redirected to a new page dependant on which button they chose.  The user and project searches each had their own web pages which had a search bar and each page populated their own query results on the same page reactively.  I found having multiple pages for the search a waste and so did the test users at the end of ICS 314.
+<ul>
+	<li>Consolidation:  I created a new Search page that consolidated the multiple pages that comprised the old one.  There is just one single page for both Project and User searches.  Test users expressed in feedback about the design with links to multiple search pages not very appealing.</li>
+	<li>Reactivity:  Keep the reactivity between searching for projects or users.  There are two forms, one for searching projects and the other for searching users.  Reactivity while searching either projects or users is still available.</li>
+	<li>Clean-up:  Clean up old html and js files from the old search pages.</li>
+	<li>Admin:  Created a base site admin page.  Currently all users, whether they are site admins or not is able to view the page if they type /admin at the end of the URL in the address bar.  Also there is a admin link in the header which is only viewable if a user is a site admin.</li>
+</ul>
