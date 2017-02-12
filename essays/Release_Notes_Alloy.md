@@ -50,3 +50,13 @@ The major goal I had planned for this enhancement was in regards to fixing/updat
 	<li>Clean-up:  Clean up old html and js files from the old search pages.</li>
 	<li>Admin:  Created a base site admin page.  Currently all users, whether they are site admins or not is able to view the page if they type /admin at the end of the URL in the address bar.  Also there is a admin link in the header which is only viewable if a user is a site admin.</li>
 </ul>
+
+<h3>February 15: Features/Enhancements</h3>
+During this milestone period I focused on giving more functionality to the admin page.  I ultimately want admins to be able to edit users, projects and skills.  So far I was able to give admins the capability to view all the skills that users have entered via user profiles or project profiles and the ability to add skills into the 'Skills' collections themselves.
+<ul>
+	<li>Fixed bug:  Formerly when updating a projects 'wanted skills' attribute newly entered skills are not added to the skill graph collection.  Skills are now added correctly to the skills graph collection when a skill that is not in the collection has been entered</li>
+	<li>Admins can now see the total number of projects, users and skills the website currently has</li>
+	<li>Edit skills UI (for admins) created</li>
+	<li>In the 'Edit Skills' page admins can see a list of all the skills</li>
+	<li>In the 'Edit Skills' page admins can enter a new skill</li>
+</ul>
