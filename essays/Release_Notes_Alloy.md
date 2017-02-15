@@ -52,11 +52,12 @@ The major goal I had planned for this enhancement was in regards to fixing/updat
 </ul>
 
 <h3>February 15: Features/Enhancements</h3>
-During this milestone period I focused on giving more functionality to the admin page.  I ultimately want admins to be able to edit users, projects and skills.  So far I was able to give admins the capability to view all the skills that users have entered via user profiles or project profiles and the ability to add skills into the 'Skills' collections themselves.
+During this milestone period I focused on giving more functionality to the admin page.  I ultimately want admins to be able to edit users, projects and skills.  So far I was able to give admins the capability to view all the skills that users have entered via user profiles or project profiles and the ability to add, or delete, skills into the 'Skills' collections themselves.
 <ul>
-	<li>Fixed bug:  Formerly when updating a projects 'wanted skills' attribute newly entered skills are not added to the skill graph collection.  Skills are now added correctly to the skills graph collection when a skill that is not in the collection has been entered</li>
-	<li>Admins can now see the total number of projects, users and skills the website currently has</li>
-	<li>Edit skills UI (for admins) created</li>
-	<li>In the 'Edit Skills' page admins can see a list of all the skills</li>
-	<li>In the 'Edit Skills' page admins can enter a new skill</li>
+	<li>Collections Totals: Admins can now see the total number of projects, users and skills the website currently has.  Within the admin page totals are given to each set of collections.  There are boxes on the right side of the browser for each collection and within each of those boxes displays the total number of documents found for their respective collection.</li>
+	<li>Edit Skills: Edit skills UI (for admins) created.</li>
+	<li>Skills List: In the 'Edit Skills' page admins can see a list of all the skills.  The skills are pulled from the collection where all the skills that users enter to update their profiles and project profiles are being stored.  The list also displays the skills in alphabetical order and a delete button next to each skill.  The list is reactive and will change if there are any changes to the skills collection without having to refresh the page.</li>
+	<li>Add Skill: In the 'Edit Skills' page admins can enter a new skill.  Skills already in the collection will not be re-added (code for catching duplicate entries had been already implemented last semester).</li>
+	<li>Remove Skill: In the 'Edit Skills' page admins can remove a skill.  When a user deletes a skill from the 'Skills' collection the deleted skill is also deleted from all users and projects that had the deleted skill in their profile.</li>
+	<li>Fixed bug:  Formerly when updating a projects 'wanted skills' attribute newly entered skills are not added to the skill graph collection.  Skills are now added correctly to the skills graph collection when a skill that is not in the collection has been entered.</li>
 </ul>
