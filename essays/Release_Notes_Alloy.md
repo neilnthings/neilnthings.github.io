@@ -61,3 +61,4 @@ During this milestone period I focused on giving more functionality to the admin
 	<li>Remove Skill: In the 'Edit Skills' page admins can remove a skill.  When a user deletes a skill from the 'Skills' collection the deleted skill is also deleted from all users and projects that had the deleted skill in their profile.</li>
 	<li>Fixed bug:  Formerly when updating a projects 'wanted skills' attribute newly entered skills are not added to the skill graph collection.  Skills are now added correctly to the skills graph collection when a skill that is not in the collection has been entered.</li>
 </ul>
+For the next milestone I hope to finish up the rest of the site admin pages.  I plan on implementing the capability for site admins to view all projects and users in the Alloy collections.  I am still coming up with ideas to what extent the site admins would have on each different project or user.  A big part of my next milestone will be brainstorming those ideas.
