@@ -16,6 +16,15 @@ labels:
 
 A continuation of my group project Alloy from ICS 314.  My group and I created Alloy during the Fall semester of 2016 with the hopes of making a website that can initiate and strengthen collaboration for projects that needed team members, a way to get a person's project exposure.  At the moment Alloy is bound to the University of Hawaii: Manoa student/faculty bodies.
 
+Table of Content
+<ol>
+	<li>Original Features</li>
+	<li><a href="#jan15">January 15</a></li>
+	<li><a href="#feb01">February 1</a></li>
+	<li><a href="#feb15">February 15</a></li>
+	<li><a href="#mar01">March 1</a></li>
+</ol>
+
 <h3>Current features of Alloy are the following:</h3>
 <ul>
 	<li>Login information is the username and password associated with a persons UH Manoa login</li>
@@ -29,7 +38,7 @@ A continuation of my group project Alloy from ICS 314.  My group and I created A
 	<li>User's homepage includes a feed of suggested projects which are related to skills a user has entered into their user information, this is possible through a skill-graph function in Alloy which relates certain skills that are added to an individual project, the more times two skills are added to the same project the stronger the relation between the two will become</li>
 </ul>
 
-<h3>January 15: Features/Enhancements</h3>
+<h3 id="jan15">January 15: Features/Enhancements</h3>
 Last semester many of the user feedback were in regards to the Search function/capabilities of Alloy.  A few of the search function remarks I hope to correct in this initial milestone are the following:  users shouldn't have to press "clear" to see new search results with a new query;  clean up the search pages .html and .js files of unnecessary code; and having the Search pages only available to users who are logged in.
 <ul>
 	<li>Reactivity:  The clear button on both the user search and project search pages have been removed.  With the addition of the dep(dependancy) variable in the js files for both searches all search results are now cleared whenever new search tags are queried.  The dep variable is given a value when a query is made and if that dep variable is changed in any way all search results are cleared and a whatever changes that are made to the dep variable are displayed.</li>
@@ -42,7 +51,7 @@ Last semester many of the user feedback were in regards to the Search function/c
 	<li>One issue from the user feedback last semester regarding the Search function had been to have the search users and projects on one page instead of buttons that changed the page regarding which query you are searching.  I plan to consolidate all Search related files into a single .html and .js file.  At the moment there are multiple .html and .js files that make up the Search function.  I would like to cut that down a lot and clean up the overall organization of this capability.  I still plan to keep all the reactivity that the search users or projects currently have.  I can see multiple issues popping up when I start working on the consolidation.  For example, I will need to create a new UI for the single page search feature.</li>
 </ul>
 
-<h3>February 1: Features/Enhancements</h3>
+<h3 id="feb01">February 1: Features/Enhancements</h3>
 The major goal I had planned for this enhancement was in regards to fixing/updating the search page.  Prior to this milestone the Alloy search page was comprised of three seperate pages.  Originally the main Search page's UI consisted of two buttons, one button for project searches and another for user searches.  Alloy users would click either button and then they would be redirected to a new page dependant on which button they chose.  The user and project searches each had their own web pages which had a search bar and each page populated their own query results on the same page reactively.  I found having multiple pages for the search a waste and so did the test users at the end of ICS 314.
 <ul>
 	<li>Consolidation:  I created a new Search page that consolidated the multiple pages that comprised the old one.  There is just one single page for both Project and User searches.  Test users expressed in feedback about the design with links to multiple search pages not very appealing.</li>
@@ -51,7 +60,7 @@ The major goal I had planned for this enhancement was in regards to fixing/updat
 	<li>Admin:  Created a base site admin page.  Currently all users, whether they are site admins or not is able to view the page if they type /admin at the end of the URL in the address bar.  Also there is a admin link in the header which is only viewable if a user is a site admin.</li>
 </ul>
 
-<h3>February 15: Features/Enhancements</h3>
+<h3 id="feb15">February 15: Features/Enhancements</h3>
 During this milestone period I focused on giving more functionality to the admin page.  I ultimately want admins to be able to edit users, projects and skills.  So far I was able to give admins the capability to view all the skills that users have entered via user profiles or project profiles and the ability to add, or delete, skills into the 'Skills' collections themselves.
 <ul>
 	<li>Collections Totals: Admins can now see the total number of projects, users and skills the website currently has.  Within the admin page totals are given to each set of collections.  There are boxes on the right side of the browser for each collection and within each of those boxes displays the total number of documents found for their respective collection.</li>
@@ -63,7 +72,7 @@ During this milestone period I focused on giving more functionality to the admin
 </ul>
 For the next milestone I hope to finish up the rest of the site admin pages.  I plan on implementing the capability for site admins to view all projects and users in the Alloy collections.  I am still coming up with ideas to what extent the site admins would have on each different project or user.  A big part of my next milestone will be brainstorming those ideas.
 
-<h3>March 1: Features/Enhancements</h3>
+<h3 id="mar01">March 1: Features/Enhancements</h3>
 I continued my work on the site admin page and capabilities.  During this milestone I wanted to place the majority of my focus towards finishing as much of the site admin pages as possible.  I wanted to complete the pages for the site admin's user interface to display all projects and all users that are currently in the system.  I also created template cards for users that can be used in other parts of the website, for example search results.
 <ul>
 	<li>Admin Projects UI: I kept the UI for displaying projects simple.  I used a modified semantic ui 'relaxed divided list' for the display.  Each project is displayed with their Project name at the top, with a bigger font size.  In each divided project section the following information is displayed:  The project admins, the number of members, when the project was created, and when the project was last modified.</li>
