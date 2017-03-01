@@ -16,16 +16,16 @@ labels:
 
 A continuation of my group project Alloy from ICS 314.  My group and I created Alloy during the Fall semester of 2016 with the hopes of making a website that can initiate and strengthen collaboration for projects that needed team members, a way to get a person's project exposure.  At the moment Alloy is bound to the University of Hawaii: Manoa student/faculty bodies.
 
-Table of Content
+<h2>Table of Contents</h2>
 <ol>
-	<li>Original Features</li>
-	<li><a href="#jan15">January 15</a></li>
-	<li><a href="#feb01">February 1</a></li>
-	<li><a href="#feb15">February 15</a></li>
-	<li><a href="#mar01">March 1</a></li>
+	<li><a href="#start">Original Features</a></li>
+	<li><a href="#jan15">January 15 Update</a></li>
+	<li><a href="#feb01">February 1 Update</a></li>
+	<li><a href="#feb15">February 15 Update</a></li>
+	<li><a href="#mar01">March 1 Update</a></li>
 </ol>
 
-<h3>Current features of Alloy are the following:</h3>
+<h3 id="start">Current features of Alloy are the following:</h3>
 <ul>
 	<li>Login information is the username and password associated with a persons UH Manoa login</li>
 	<li>Users are able to create projects, which are public to other users to view</li>
