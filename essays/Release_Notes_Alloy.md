@@ -23,6 +23,7 @@ A continuation of my group project Alloy from ICS 314.  My group and I created A
 	<li><a href="#feb01">February 1 Update</a></li>
 	<li><a href="#feb15">February 15 Update</a></li>
 	<li><a href="#mar01">March 1 Update</a></li>
+	<li><a href="#mar15">March 15 Update</a></li>
 </ol>
 
 <h3 id="start">Current features of Alloy are the following:</h3>
@@ -82,3 +83,13 @@ I continued my work on the site admin page and capabilities.  During this milest
 	<li>User Template Card:  Template card that can be called from any page to create nice cards to display user information.  Creating the template cards wasn't originally in my plan for this milestone.  I happened to think of the idea when I was making the Edit Users UI.  I wanted to play around with the UI and see what I can do.</li>
 </ul>
 During these last few milestones I've come across quite a few bugs in the website.  I have been creating issues for them in the GitHub repository as I find them.  I will devote sometime during this milestone to fix as much of the bugs as I can.  Some features I do hope to get work done on are:  Creating functionality to the admin feed, giving site admins the ability to edit all user profiles and project profiles, and changing the search results of searching for users to implement the user template cards I created.
+
+<h3 id="mar15">March 15: Features/Enhancements</h3>
+This milestone.
+<ul>
+	<li>Search Results</li>
+	<li>Admin Feed</li>
+	<li>Site Admin Scope</li>
+	<li>Bugs</li>
+</ul>
+Next milestone.
