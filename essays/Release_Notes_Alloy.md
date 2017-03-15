@@ -85,11 +85,11 @@ I continued my work on the site admin page and capabilities.  During this milest
 During these last few milestones I've come across quite a few bugs in the website.  I have been creating issues for them in the GitHub repository as I find them.  I will devote sometime during this milestone to fix as much of the bugs as I can.  Some features I do hope to get work done on are:  Creating functionality to the admin feed, giving site admins the ability to edit all user profiles and project profiles, and changing the search results of searching for users to implement the user template cards I created.
 
 <h3 id="mar15">March 15: Features/Enhancements</h3>
-This milestone.
+This milestone I wanted to shift my focus on features other than the site admin functionalities.  I ended up enhancing the search results for users and fixing a bug regarding projects and the number of project members.  In regards to site admin features I created a site adming feed collection and gave site admins the ability to edit both user profiles and project profiles.
 <ul>
-	<li>Search Results</li>
-	<li>Admin Feed</li>
-	<li>Site Admin Scope</li>
-	<li>Bugs</li>
+	<li>Search Results: I did not like how the search results for user looked like.  There was too many empty space and I thought that was I waste.  I implemented the user cards I created from another milestone as the user search results.  Rows of four user cards will be displayed when user search results are populated.</li>
+	<li>Admin Feed:  I created a collection for admin feed messages.  It contains the following attributes:  username of the person reporting the message, the time stamp of the messge, and the message.</li>
+	<li>Site Admin Scope:  I have given site admins the capability to go to different user profiles and project profiles and be able to edit all information that the users themselves and the project admins for a project are able to edit.</li>
+	<li>Bug:  In the past when all members of a project left a project the project would just sit there and no one would be able to edit or do anything with the project.  It would just be useless data taking up space.  Now I made it so that when the last member of a project leaves the project will delete itself.  So a project that has zero members will be removed automatically when the last member leaves.</li>
 </ul>
-Next milestone.
+Next milestone I plan on completing the site adming features.  I want the admin feed to show notifications from users in regards to user and profile being able to be reported if they contain profanity or anything vulgar.  I also want to add a contact page where users can write messages that will show up in the admin feed for suggestion or comments.
