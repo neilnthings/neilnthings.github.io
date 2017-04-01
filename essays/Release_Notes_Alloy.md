@@ -24,6 +24,7 @@ A continuation of my group project Alloy from ICS 314.  My group and I created A
 	<li><a href="#feb15">February 15 Update</a></li>
 	<li><a href="#mar01">March 1 Update</a></li>
 	<li><a href="#mar15">March 15 Update</a></li>
+	<li><a href="#apr01">April 1 Update</a></li>
 </ol>
 
 <h3 id="start">Current features of Alloy are the following:</h3>
@@ -93,3 +94,15 @@ This milestone I wanted to shift my focus on features other than the site admin 
 	<li>Bug:  In the past when all members of a project left a project the project would just sit there and no one would be able to edit or do anything with the project.  It would just be useless data taking up space.  Now I made it so that when the last member of a project leaves the project will delete itself.  So a project that has zero members will be removed automatically when the last member leaves.</li>
 </ul>
 Next milestone I plan on completing the site adming features.  I want the admin feed to show notifications from users in regards to user and profile being able to be reported if they contain profanity or anything vulgar.  I also want to add a contact page where users can write messages that will show up in the admin feed for suggestion or comments.
+
+
+<h3 id="apr01">April 1: Features/Enhancements</h3>
+I was able to complete all the parts of the site admin pages.  A feed that notifies site admins of reports created by users is populated and displayed on the site admin page.  I also created the ability for users to able to report a profile page for 'users' and 'projects'.  There were two bugs I was able to fix as well.
+<ul>
+	<li>Report Users:  Users can report a user profile page by clicking the red report button.  The report is generated and entered into an admin feed collection.  Some of the data that is stored are the following: User who made the report, the User who is being reported, the timestamp of the report, a precreated message of the report (will add the feature of user created messages at a later time).</li>
+	<li>Report Projects:  Users can report a project profile page by clicking the red report button.  The report is generated and entered into an admin feed collection.  Some of the data that is stored are the following: User who made the report, the Profile who is being reported, the timestamp of the report, a precreated message of the report (will add the feature of user created messages at a later time).</li>
+	<li>Populate Site Admin Feed:  In the site admin page a feed of all reports is populated and displayed.  The reports are displayed by the newest reports first.  Site admins can delete reports by clicking a delete button next to the report they want to remove.</li>
+	<li>Bug (project member links):  Prior to the fix all the users in the members list of a project's profile page would link to the users own profile page instead of the member.  Now the members list correctly links to each member of the project.</li>
+	<li>Bug (project manage members):  Prior to the fix when a user successfully invites a uesr to join the project two modals display.  The successful modal and the invalid user modal.  Now only the successful modal appears if successful and the invalid modal appears only when the user input is invalid.</li>
+</ul>
+For the next milestone I would like to create a 'contact us' page where users can create messages for site admins for comments or suggestions.  This would be entered into the admin feed collection and displayed with the reports on the site admin page.  I also want to correct more bugs.
