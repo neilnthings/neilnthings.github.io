@@ -25,6 +25,7 @@ A continuation of my group project Alloy from ICS 314.  My group and I created A
 	<li><a href="#mar01">March 1 Update</a></li>
 	<li><a href="#mar15">March 15 Update</a></li>
 	<li><a href="#apr01">April 1 Update</a></li>
+	<li><a href="#apr15">April 15 Update</a></li>
 </ol>
 
 <h3 id="start">Current features of Alloy are the following:</h3>
@@ -95,7 +96,6 @@ This milestone I wanted to shift my focus on features other than the site admin 
 </ul>
 Next milestone I plan on completing the site adming features.  I want the admin feed to show notifications from users in regards to user and profile being able to be reported if they contain profanity or anything vulgar.  I also want to add a contact page where users can write messages that will show up in the admin feed for suggestion or comments.
 
-
 <h3 id="apr01">April 1: Features/Enhancements</h3>
 I was able to complete all the parts of the site admin pages.  A feed that notifies site admins of reports created by users is populated and displayed on the site admin page.  I also created the ability for users to able to report a profile page for 'users' and 'projects'.  There were two bugs I was able to fix as well.
 <ul>
@@ -106,3 +106,14 @@ I was able to complete all the parts of the site admin pages.  A feed that notif
 	<li>Bug (project manage members):  Prior to the fix when a user successfully invites a uesr to join the project two modals display.  The successful modal and the invalid user modal.  Now only the successful modal appears if successful and the invalid modal appears only when the user input is invalid.</li>
 </ul>
 For the next milestone I would like to create a 'contact us' page where users can create messages for site admins for comments or suggestions.  This would be entered into the admin feed collection and displayed with the reports on the site admin page.  I also want to correct more bugs.
+
+<h3 id="apr15">April 15: Features/Enhancements</h3>
+The major feature I was able to implement this milestone is the email functionality of the Alloy site.  I integrated some email notifications with certain actions users do (I'll go into further detail below).  I've also fixed a number of issues that were months old regarding bugs my team and I found while adding new features and enhancements.
+<ul>
+	<li>Email Support:  I installed the 'meteor email' package to our app.  It was pretty easy, I just had to run a command into the terminal and it automatically installed all necessary components regarding email and meteor.  I used two webpages to help me with the rest of the process.  [Meteor Docs](https://docs.meteor.com/api/email.html) and [Meteor Chef (Email Package)](https://themeteorchef.com/tutorials/using-the-email-package).  The Meteor Chef site pretty much goes step by step with the setup process.</li>
+	<li>Email Notification (project invite):  An email notification is sent to a users hawaii.edu account when a project admin invites that user to their project.  It's a simple text message stating the user who sent the invite and the project for which the invite is to.</li>
+	<li>Email Notification (project request to join):  An email notification is sent to all project admins of a project when a request to join occurs.  The email states the username of the user requesting to join and the name of the project related to the request.</li>
+	<li>Bug (duplicate project names):  I've implemented a catch case in the projects creation js file to stop the creation of a project if it finds an existing project with the same name, regardless of case.  A modal pops up warning the user of the issue and brings the user back to the project creation screen when the modal disappears.  No user input has been changed.  The user just needs to change the name of the project for the project creation to successfully complete.</li>
+	<li>Bug (request to join project):  I created a bug earlier that stops the request to join projects button from working correctly.  I've fixed the issue and users can now join any number of projects.</li>
+</ul>
+For my next milestone I plan on adding more email functionality.  I want to create an invite your friends page where users can enter a friend's UH Manoa username and Alloy will send that friend a message to go to the Alloy website and join.  I also want to fix more bugs.
