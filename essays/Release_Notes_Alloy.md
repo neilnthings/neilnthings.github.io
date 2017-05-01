@@ -26,6 +26,7 @@ A continuation of my group project Alloy from ICS 314.  My group and I created A
 	<li><a href="#mar15">March 15 Update</a></li>
 	<li><a href="#apr01">April 1 Update</a></li>
 	<li><a href="#apr15">April 15 Update</a></li>
+	<li><a href="#may01">May 1 Update</a></li>
 </ol>
 
 <h3 id="start">Current features of Alloy are the following:</h3>
@@ -117,3 +118,16 @@ The major feature I was able to implement this milestone is the email functional
 	<li>Bug (request to join project):  I created a bug earlier that stops the request to join projects button from working correctly.  I've fixed the issue and users can now join any number of projects.</li>
 </ul>
 For my next milestone I plan on adding more email functionality.  I want to create an invite your friends page where users can enter a friend's UH Manoa username and Alloy will send that friend a message to go to the Alloy website and join.  I also want to fix more bugs.
+
+<h3 id="may01">May 1: Features/Enhancements</h3>
+<ul>
+I built upon the ability to send out email notifications to users this milestone.  I created an invite a friend function.  The email notifications are now a little fancier because I added html to the message.  Site admins are now able to remove projects and restrict/ block users.  The search parameters that users pick from to query results are have been modified to correctly display relevant skills.  I also corrected a few bugs.
+	<li>Invitations:  Users can send an email invitation to their friends if they have their UH username.  If their friend is already in the Alloy system a message will popup letting them know.</li>
+	<li>HTML Email Notifications:  Instead of text based email messages I made the notifications html based.  It's more for looks than anything else but I'm sure I need someone with more of a design eye to create the html messages to be more appealing.</li>
+	<li>Remove Project:  Site admins can remove projects from the Projects collection.  When a project is removed the project is removed from all users project attribute and project admin attribute.</li>
+	<li>Restrict User:  Site admins can place a user into a restricted status.  A restricted user can navigate around the Alloy website but they are not able to use the following functionalities;  The invitation function, create project function, report user/project, or edit any project/user page.  When a user is put into, or taken off, restricted status they are emailed a notification.</li>
+	<li>Search Parameters:  Prior to the update all skills in the skills collection populated the dropdown menu of skills users can choose from to search for a project or user.  Now only skills that have a related project or user is displayed.</li>
+	<li>Bug (abandon change button):  The button use to navigate to a page that didn't exist and displayed an error.  The button now navigates back to the project page.</li>
+	<li>Bug (project admin links):  Links now navigate to the displayed user.</li>
+</ul>
+I plan on trying to make the project description area markdown capable.  I also want to implement a profanity filter for user input.
