@@ -28,5 +28,10 @@ The gameplay begins when in his quest for happiness the play dough crashes the f
 
 Concept Art:
 
+<div class="ui medium images">
+  <img class="ui image" src="../images/unicornexample.png">
+  <img class="ui image" src="../images/bearexample.png">
+</div>
+
 <img class="ui medium image" src="../images/unicornexample.png">
 <img class="ui medium image" src="../images/bearexample.png">
