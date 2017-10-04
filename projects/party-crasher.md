@@ -15,6 +15,8 @@ summary: A 2D puzzle/platformer game.
 ---
 
 A 2D problem-solving / platformer game centered around a grumpy lump of "play dough" who wants to be happy. The play dough can shift into three different shapes: a ball that's able to roll side to side, an invulnerable block that concentrates his mass so he can drop down, and a longer stick shape that lets the play dough climb up to higher platforms or form bridges across gaps.
+
+<img class="ui huge image" src="../images/playdough.png">
  
 The game will start with a brief animation of a girl playing with several jars of brightly colored play dough. She smushes and molds all the play dough together until the colors blend into one grumpy lumpy blob of gray, at which point she throws it aside in favor of her other toys.
  
@@ -31,7 +33,7 @@ Concept Art:
 <div class="ui medium images">
   <img class="ui image" src="../images/unicornexample.png">
   <img class="ui image" src="../images/bearexample.png">
+  <img class="ui image" src="../images/playdough_ball.png">
+  <img class="ui image" src="../images/playdough_box.png">
+  <img class="ui image" src="../images/playdough_stick.png">
 </div>
-
-<img class="ui medium image" src="../images/unicornexample.png">
-<img class="ui medium image" src="../images/bearexample.png">
