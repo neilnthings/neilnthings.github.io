@@ -28,7 +28,7 @@ The gameplay begins when in his quest for happiness the play dough crashes the f
 	<li>Kayla Abalos - ACM lead</li>
 </ul>
 
-Concept Art:
+<h2>Concept Art:</h2>
 
 <div class="ui medium images">
   <img class="ui image" src="../images/unicornexample.png">
