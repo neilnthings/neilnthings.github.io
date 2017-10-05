@@ -26,6 +26,7 @@ The gameplay begins when in his quest for happiness the play dough crashes the f
 <ul>
 	<li>Neil Teves - ICS lead</li>
 	<li>Kayla Abalos - ACM lead</li>
+	<li>Mickey Mangrobang - ICS</li>
 </ul>
 
 <h2>Concept Art:</h2>
