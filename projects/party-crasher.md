@@ -28,9 +28,6 @@ Go to the game website by clicking here --> [Playto](https://dreamingbento.wordp
 <ul>
 	<li>Neil Teves - ICS lead</li>
 	<li>Kayla Abalos - ACM lead</li>
-	<li>Michael Mangrobang - ICS</li>
-	<li>Justin Bishay - ICS</li>
-	<li>Kaeli Giron - ACM</li>
 </ul>
 
 <h2>Concept Art:</h2>
