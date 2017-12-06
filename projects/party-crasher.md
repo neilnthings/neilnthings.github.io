@@ -15,8 +15,6 @@ summary: A 2D puzzle/platformer game.
 ---
 
 A 2D problem-solving / platformer game centered around a grumpy lump of "play dough" who wants to be happy. The play dough can shift into three different shapes: a ball that's able to roll side to side, an invulnerable block that concentrates his mass so he can drop down, and a longer stick shape that lets the play dough climb up to higher platforms or form bridges across gaps.
-
-<img class="https://dreamingbento.files.wordpress.com/2017/12/startmenupaperstrip-e1512276462337.png?w=1024&h=299">
  
 The game will start with a brief animation of a girl playing with several jars of brightly colored play dough. She smushes and molds all the play dough together until the colors blend into one grumpy lumpy blob of gray, at which point she throws it aside in favor of her other toys.
  
