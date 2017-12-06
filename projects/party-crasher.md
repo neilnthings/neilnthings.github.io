@@ -24,9 +24,11 @@ Go to the game website by clicking here --> [Playto](https://dreamingbento.wordp
 
 <h2>Team Members</h2>
 <ul>
-	<li>Neil Teves - ICS lead</li>
-	<li>Kayla Abalos - ACM lead</li>
-	<li>Mickey Mangrobang - ICS</li>
+	<li>Neil Teves - ICS lead developer</li>
+	<li>Kayla Abalos - ACM lead designer/animator</li>
+  <li>Mickey Mangrobang - ICS developer</li>
+  <li>Justin Bishay - ICS developer</li>
+  <li>Kaeli Giron - ACM designer/animator</li>
 </ul>
 
 <h2>Concept Art:</h2>
