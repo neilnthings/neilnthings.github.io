@@ -5,8 +5,8 @@
     "picture": "https://neilnthings.github.io/images/photo.jpg",
     "email": "tevesn@hawaii.edu",
     "phone": "",
-    "website": "https://neilnthings.github.io",
-    "summary": "I am studying for a B.A. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2017.  After graduating I plan on working in some sort of data management position.",
+    "website": "http://neilteves.com",
+    "summary": "Software engineer/artist based in Honolulu, Hawaii who is very passionate about creating things, whether they be new applications or pieces of art.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -78,24 +78,25 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Fall, 2017)",
+      "area": "Computer Science",
       "studyType": "B.A.",
       "startDate": "2015-01-15",
-      "endDate": "Present",
-      "gpa": "",
+      "endDate": "2017-12-16",
+      "gpa": "3.8",
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "US Navy",
-      "position": "Information Systems Technician",
+      "company": "",
+      "position": "Available upon request",
       "website": "",
-      "startDate": "2009-12-19",
-      "endDate": "2015-02-15",
-      "summary": "Maintain and troubleshoot computer systems/network",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
       "highlights": [
+        /*
         "Adjust computer operation systems",
         "Conduct computer diagnostics to determine nature of problems",
         "Confer with personnel to discuss security violations or programming",
@@ -106,6 +107,7 @@
         "Monitor use of computer data files to safeguard information",
         "Perform minor repairs to hardware, software, or peripheral equipment",
         "Provide technical support to computer users"
+        */
       ]
     }
   ],
