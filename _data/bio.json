@@ -89,15 +89,13 @@
   ],
   "work": [
     {
-      "company": "",
-      "position": "Available upon request",
+      "company": "Available upon request",
+      "position": "",
       "website": "",
-      "startDate": "",
+      "startDate": "N/A",
       "endDate": "",
       "summary": "",
-      "highlights": [
-        ""
-      ]
+      //"highlights": []
     }
   ],
   "references": [
